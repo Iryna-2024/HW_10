@@ -1,0 +1,35 @@
+    1  git config --global user.name "Iryna Zorii"
+    2  git config --global user.email "arishechka100@gmail.com"
+    3  git clone https://github.com/Iryna-2024/HW_10.git
+    4  cd /c/Users/pc/Documents/Ira/Homework_Git/HW_10
+    5  touch text_ignore.txt
+    6  vim .gitignore
+    7  git status
+    8  git add.
+    9  git add
+   10  git add .
+   11  git commit -m "Task 1"
+   12  touch main_test.txt
+   13  ls -l
+   14  git add .
+   15  git commit -m "Task 2"
+   16  clear
+   17  git branch
+   18   git branch -b "develop"
+   19  git checkout "develop"
+   20  git branch
+   21  git checkout -b develop
+   22  git branch
+   23  git checkout develop
+   24  touch develop_test.txt
+   25  ls -l
+   26  git add .
+   27  git commit -m "Task 3.1"
+   28  vim develop_test.txt
+   29  git status
+   30  git add .
+   31  git commit -m "Task 3.2"
+   32  git checkout main
+   33  git merge develop
+   34  git log
+   35  history > command_list.csv
